@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  background-color: #f1f1f1;
+  padding: 10px;
+}

@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.user-operations {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 310px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 73%;
+  max-height: 520px;
+  overflow-y: auto;
+}
+.user-operations::-webkit-scrollbar {
+  width: 5px;
+  background-color: #ebedef;
+  border-radius: 10px;
+}
+.user-operations::-webkit-scrollbar-thumb {
+  background-color: #3b82f6;
+  border-radius: 10px;
+}
+.table-head {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 10px;
+}
+.users tr {
+  width: 950px;
+  margin: 20px;
+}
+.table-body {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 10px;
+}
+.table-icons {
+  color: #b8bfcc;
+  cursor: pointer;
+}
+.icon {
+  margin-left: 20px;
+  color: #b8bfcc;
+}
+.table-foto {
+  display: flex;
+  align-items: center;
+}
+.table-foto img {
+  margin-right: 10px;
+}
+.status-Aktif {
+  width: 35%;
+  color: #27ae60;
+  background-color: rgba(111, 207, 151, 0.2);
+  border-radius: 27px;
+  padding: 5px 20px;
+}
+.status-Kısıtlandı {
+  color: #eb5757;
+  background-color: rgba(231, 76, 20, 0.2);
+  border-radius: 27px;
+  padding: 5px 20px;
+}
+.status-Yasaklandı {
+  color: #e41761;
+  background-color: rgba(228, 23, 97, 0.1);
+  border-radius: 27px;
+  padding: 5px 20px;
+}
+th,
+td {
+  padding: 15px 30px;
+}

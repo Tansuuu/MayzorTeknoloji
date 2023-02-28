@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  height: 32px;
+  padding: 20px 57px;
+  cursor: pointer;
+}
+.logo-bar {
+  background-color: #fbfbfb;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
+  background-color: #fff;
+}
+.nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav li {
+  margin-right: 15px;
+  cursor: pointer;
+}
+.nav-search {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 10px;
+  color: #c7ced9;
+}
+.header-input {
+  border: 1px solid #ebeef2;
+  height: 38px;
+  width: 240px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05);
+}
+.setting-icon {
+  height: 18px;
+  width: 18px;
+  color: #b8bfcc;
+  transform: rotate(90deg);
+}
+.bell-icon {
+  color: #b8bfcc;
+  height: 20px;
+  width: 20px;
+}
+.text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+}

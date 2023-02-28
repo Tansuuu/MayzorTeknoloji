@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.edit {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 310px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 73%;
+}
+.back-key {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.back-icon {
+  color: #3b82f6;
+  margin-right: 20px;
+}
+.user-name {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.user-container {
+  display: flex;
+}
+.circle-icon {
+  position: absolute;
+  margin-left: 90px;
+  margin-top: 90px;
+  color: #fff;
+  background-color: #3b82f6;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  margin-left: 80px;
+}
+.form-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4c5f82;
+}
+.form-input {
+  background-color: #fcfcfc;
+  border: 1px solid #e1edff;
+  width: 324px;
+  color: #8f9bae;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 99px;
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.edit-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+.clear-button {
+  background-color: rgba(235, 87, 87, 0.1);
+  color: #eb5757;
+  padding: 10px;
+  border-radius: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clear {
+  border: none;
+  color: #eb5757;
+  margin-left: 5px;
+}
+.update-button {
+  background-color: #3b82f6;
+  padding: 10px;
+  border-radius: 52px;
+  margin-left: 20px;
+}
+.update {
+  border: none;
+  color: #fff;
+  background-color: #3b82f6;
+}
